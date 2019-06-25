@@ -1,0 +1,60 @@
+ul{
+    font-size: 0;
+}
+
+@media screen and (min-width:0px){
+    li{
+        background-color: #222222;
+        display: inline-block;
+        font-size: 12px;
+        text-align: center;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width:300px){
+
+    li{
+    background-color: #222222;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    width: 22%;
+}/*!liのリスト要素を横並びにさせるための記述*/
+/*! 参考:https://delaymania.com/201404/web/list-inline-block/ */
+/*! inline-blockについては: http://ja.learnlayout.com/inline-block.html*/
+/*!2行4列にするにはやはりwidthが関係してたらしい*/
+/*display:flexやtable、flexboxを要調査*/
+}
+
+nav#header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+header{
+    background-color:black;
+    color:white;
+    padding:16px;
+}
+
+.profile{
+    margin-top:24px;
+    text-align:center
+}
+
+.profile>img{
+    width:180px;
+    height:160px;
+    border-radius: 80px;
+}
+
+.detail{
+    display: flex;
+}
+
+section{
+    width: 480px;
+    margin: 20px;
+}
+

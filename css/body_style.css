@@ -1,0 +1,14 @@
+.top_menu{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    margin-top: 64px;
+    width: 100%;
+}
+
+#wrap{
+    width: 960px;
+    margin: 0px auto;
+}
