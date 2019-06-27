@@ -1,7 +1,6 @@
 .top_menu{
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px;
     color: aqua;
 }
 
