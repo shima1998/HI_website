@@ -36,7 +36,7 @@ nav.link-list>a{
         background-color: #C8A36C;
     }
 
-nav.btns{
+/* nav.btns{
     position: absolute;
     top: 45%;
     width: 100%;
@@ -111,8 +111,17 @@ nav.btns{
         }
     }
 
+} */
+
+nav.btns{
+    position: absolute;
+    top: 45%;
+    width: 100%;
 }
 
+nav.btns button:focus{
+    outline: 0;
+}
 
 nav.btns button:before{
     content: '';
@@ -127,6 +136,38 @@ nav.btns button:before{
     transition: all 0.5s ease;
 }
 
+nav.btns button span{
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+nav.btns button:hover {
+    background-color: #C8A36C;
+    width: 64px;
+    height: 64px;
+    transform: translateY(-10px);
+}
+
+nav.btns button:hover:before{
+    opacity:1;
+    width: 104px;
+    height: 104px;
+    top: -22px;
+    left: -22px;
+}
+
+nav.btns button:hover span{
+    opacity: 1;
+}
+
+nav.btns button.show-prev{
+    left: 15%;
+}
+
+nav.btns button.show-next{
+    right: 15%;
+}
+
 footer{
     position: absolute;
     bottom: 10px;
@@ -135,11 +176,12 @@ footer{
     color: #ccc;
     font-size: 12px;
     line-height: 12px;
-
-    a {
-        color: inherit;
-    }
 }
+
+footer a {
+    color: inherit;
+}
+
 
 .loading-txt{
     text-align: center;
@@ -148,9 +190,8 @@ footer{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
-    &.is-hidden{
-        display: none;
-    }
-    
+}
+
+.loading-txt.is-hidden{
+    display: none;
 }
