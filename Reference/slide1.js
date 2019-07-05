@@ -189,7 +189,7 @@
             prevImage = currentImage;
             currentImage = parseInt(trgt.getAttribute('data-order'), 10);
             changeImage();
-
+'),
             selectLink();
 
             clearInterval(slideshowInterval);
