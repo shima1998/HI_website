@@ -7,7 +7,7 @@
 
     //DOM
     var canvas0 = document.getElementById('canvas0'),
-        ctx0 = canvas0.getContext('2d'),
+        ctx0 = canvas0.getContext("2d"),
         canvas1 = document.getElementById('canvas1'),
         ctx1 = canvas1.getContext('2d'),
         canvas2 = document.getElementById('canvas2'),
@@ -189,7 +189,6 @@
             prevImage = currentImage;
             currentImage = parseInt(trgt.getAttribute('data-order'), 10);
             changeImage();
-'),
             selectLink();
 
             clearInterval(slideshowInterval);
