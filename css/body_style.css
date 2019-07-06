@@ -1,3 +1,7 @@
+div.normal{
+    margin: 2em 2em;
+}
+
 .top_menu{
     display: inline-block;
     margin: 20px;
@@ -6,10 +10,12 @@
 
 .box1 {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 2em 2em;
     font-weight: bold;
     border: solid 3px #000000;
 }
+
+
 .box1 p {
     margin: 0; 
     padding: 0;
