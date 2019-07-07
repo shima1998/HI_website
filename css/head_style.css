@@ -15,7 +15,7 @@ ul{
 @media screen and (min-width:300px){
 
     li{
-    background-color: #222222;
+    background-color: #006400;
     display: inline-block;
     font-size: 12px;
     text-align: center;
@@ -33,7 +33,8 @@ nav#header{
 }
 
 header{
-    background-color:black;
+    background-color:#008000
+    ;
     color:white;
     padding:16px;
 }

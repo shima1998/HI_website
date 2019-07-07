@@ -25,7 +25,7 @@ div.normal{
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #95ccff;
+    border: solid 3px #008000;
     border-radius: 8px;
 }
 
@@ -38,7 +38,7 @@ div.normal{
     line-height: 1;
     font-size: 19px;
     background: #FFF;
-    color: #95ccff;
+    color: #008000;
     font-weight: bold;
 }
 
