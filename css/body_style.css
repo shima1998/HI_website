@@ -1,3 +1,7 @@
+body{
+    margin-top: 200px;
+}
+
 div.normal{
     margin: 2em 2em;
 }
@@ -23,7 +27,7 @@ div.normal{
 
 .box2 {
     position: relative;
-    margin: 2em 0;
+    margin: 2em 2em;
     padding: 0.5em 1em;
     border: solid 3px #008000;
     border-radius: 8px;
@@ -45,6 +49,11 @@ div.normal{
 .box2 p {
     margin: 0; 
     padding: 0;
+}
+
+
+.text_center{
+text-align: center;
 }
 
 footer{
