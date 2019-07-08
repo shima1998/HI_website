@@ -30,7 +30,7 @@ dt{
     float: left;
 }
 
-dt::after{
+.box1 dt::after{
     content: "："
 }
 
