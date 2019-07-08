@@ -27,10 +27,22 @@ ul{
 /*display:flexやtable、flexboxを要調査*/
 }
 
+
+
 nav#header{
     text-align: center;
     margin-top: 20px;
 }
+
+nav a{
+        text-decoration: none;
+        color: #ffffff;  
+}
+
+nav a:hover{
+    border: solid 1px #ffffff
+}
+
 
 header{
     width: 100%;

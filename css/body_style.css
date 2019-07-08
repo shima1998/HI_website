@@ -1,3 +1,4 @@
+
 body{
     margin-top: 200px;
 }
@@ -25,7 +26,17 @@ div.normal{
     padding: 0;
 }
 
+dt{
+    float: left;
+}
+
+dt::after{
+    content: "："
+}
+
+
 .box2 {
+    /* width: 75%; */
     position: relative;
     margin: 2em 2em;
     padding: 0.5em 1em;
