@@ -39,8 +39,9 @@ nav a{
         color: #ffffff;  
 }
 
-nav a:hover{
-    border: solid 1px #ffffff
+nav li:hover{
+    border: solid 1px #ffffff;
+    background-color: blue;
 }
 
 
