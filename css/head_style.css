@@ -4,6 +4,7 @@ ul{
 
 @media screen and (min-width:0px){
     li{
+        border-radius: 15px;
         background-color: #222222;
         display: inline-block;
         font-size: 12px;
@@ -15,9 +16,11 @@ ul{
 @media screen and (min-width:300px){
 
     li{
+    border-radius: 15px;
     background-color: #006400;
     display: inline-block;
-    font-size: 12px;
+    font-size: 20px;
+    margin: 3px;
     text-align: center;
     width: 22%;
 }/*!liのリスト要素を横並びにさせるための記述*/
