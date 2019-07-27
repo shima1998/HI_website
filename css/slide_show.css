@@ -1,15 +1,15 @@
 .cp_cssslider {/*スライドショーの枠の大きさ ないとサイトが横に長くなる*/
-    width: 450px;
-	height: 300px;
+    width: 1200px;
+	height: 400px;
 	overflow: hidden;
-	/* 内容がボックスに収まらない場合、収まらない部分は非表示となる。内容が収まらない場合にも、スクロールバーなどは表示されない */
 	margin: 2em auto;
 	border: 10px solid #ffffff;
+	border-radius: 7px;
 	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
 }
 .cp_slide_item {/*表示させるコンテンツの大きさ*/
-	width: 450px;
-	height: 300px;
+	width: 600px;
+	height: 400px;
 	float: left;
 	position: relative;
 }
@@ -27,20 +27,20 @@
         transform: translateX(0);
         }
         20% {
-        -webkit-transform: translateX(-450px);
-        transform: translateX(-450px);
+        -webkit-transform: translateX(-600px);
+        transform: translateX(-600px);
         }
         40% {
-        -webkit-transform: translateX(-900px);
-        transform: translateX(-900px);
+        -webkit-transform: translateX(-1200px);
+        transform: translateX(-1200px);
         }
         60% {
-        -webkit-transform: translateX(-1350px);
-        transform: translateX(-1350px);
-        }
-        80% {
         -webkit-transform: translateX(-1800px);
         transform: translateX(-1800px);
+        }
+        80% {
+        -webkit-transform: translateX(-2400px);
+        transform: translateX(-2400px);
         }
         100% {
         -webkit-transform: translateX(0);
@@ -54,23 +54,40 @@
 	transform: translateX(0);
 	}
 	20% {
-	-webkit-transform: translateX(-450px);
-	transform: translateX(-450px);
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
 	}
 	40% {
-	-webkit-transform: translateX(-900px);
-	transform: translateX(-900px);
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
 	}
 	60% {
-	-webkit-transform: translateX(-1350px);
-	transform: translateX(-1350px);
-	}
-	80% {
 	-webkit-transform: translateX(-1800px);
 	transform: translateX(-1800px);
+	}
+	80% {
+	-webkit-transform: translateX(-2400px);
+	transform: translateX(-2400px);
 	}
 	100% {
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
 	}
+} 
+
+.picture_frame{/*スライドショーの枠の大きさ ないとサイトが横に長くなる*/
+	border-radius: 7px;
+	width: 30%;
+	height: 350px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 8px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.picuture_item {/*表示させるコンテンツの大きさ*/
+	width: 30%;
+	height: 350px;
+	float: left;
+	position: relative;
 }
