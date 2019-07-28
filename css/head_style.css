@@ -2,7 +2,7 @@ ul{
     font-size: 0;
 }
 
-@media screen and (min-width:0px){
+/* @media screen and (min-width:0px){
     li{
         border-radius: 15px;
         background-color: #222222;
@@ -11,9 +11,9 @@ ul{
         text-align: center;
         width: 10%;
     }
-}
+} */
 
-@media screen and (min-width:300px){
+/* @media screen and (min-width:300px){ */
 
     li{
     border-radius: 5px;
@@ -32,6 +32,20 @@ ul{
 /*! inline-blockについては: http://ja.learnlayout.com/inline-block.html*/
 /*!2行4列にするにはやはりwidthが関係してたらしい*/
 /*display:flexやtable、flexboxを要調査*/
+/* } */
+
+li .now{
+    border-radius: 5px;
+    background-color: rgb(115, 255, 0);
+    font-size: 20px;
+    display: inline-block;
+    color: #00a800;
+    margin: 0px 22px;
+    padding: 10px;
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    box-shadow:0px 0px 20px 0px rgba(157, 255, 0, 0.5);
 }
 
 .title{
@@ -54,10 +68,10 @@ nav a{
 
 nav li:hover{
     color: #00a800;
-    /* border: solid 1px #ffffff; */
     background-color: rgb(115, 255, 0);
     box-shadow:0px 0px 20px 0px rgba(157, 255, 0, 0.5);
 }
+
 
 
 header{
@@ -75,8 +89,7 @@ header{
     padding: 5px;
     text-align: center;
     border-radius: 5px;
-    background-color: #ffffff;
-    color: #00a800;
+    color: #ffffff;
     font-size: 20px;
     margin: 0px 10px
 }

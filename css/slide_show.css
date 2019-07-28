@@ -5,8 +5,13 @@
 	margin: 2em auto;
 	border: 10px solid #ffffff;
 	border-radius: 7px;
-	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow:0px 0px 30px 0px rgba(0,0,0,0.5);
 }
+
+.cp_cssslider:hover {
+box-shadow:0px 0px 30px 0px rgba(255, 166, 0, 0.4);
+}
+
 .cp_slide_item {/*表示させるコンテンツの大きさ*/
 	width: 600px;
 	height: 400px;
@@ -83,6 +88,10 @@
 	margin: 2em auto;
 	border: 8px solid #ffffff;
 	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.picture_frame:hover {
+	box-shadow:0px 0px 5px 0px rgba(255, 166, 0, 0.4);
 }
 
 .picuture_item {/*表示させるコンテンツの大きさ*/
