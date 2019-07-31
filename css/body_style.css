@@ -178,6 +178,16 @@ footer{
     box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
 }
 
+.course_frame2{/*スライドショーの枠の大きさ ないとサイトが横に長くなる*/
+    border-radius: 7px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    margin: 2em auto;
+    border: 8px solid #ffffff;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
   
 .box3{
     width: 50%; 
