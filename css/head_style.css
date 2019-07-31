@@ -15,7 +15,7 @@ ul{
 
 /* @media screen and (min-width:300px){ */
 
-    li{
+    li.global{
     border-radius: 5px;
     background-color: #ffffff;
     font-size: 20px;
@@ -33,20 +33,6 @@ ul{
 /*!2行4列にするにはやはりwidthが関係してたらしい*/
 /*display:flexやtable、flexboxを要調査*/
 /* } */
-
-li .now{
-    border-radius: 5px;
-    background-color: rgb(115, 255, 0);
-    font-size: 20px;
-    display: inline-block;
-    color: #00a800;
-    margin: 0px 22px;
-    padding: 10px;
-    text-align: center;
-    width: 15%;
-    height: 100%;
-    box-shadow:0px 0px 20px 0px rgba(157, 255, 0, 0.5);
-}
 
 .title{
     box-shadow:0px 0px 20px 0px rgba(0,0,0,0.5);

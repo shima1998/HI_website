@@ -54,7 +54,7 @@ dt{
 .table_parent{
     display: table;
     table-layout: fixed;
-    border-spacing: 5px;
+    border-spacing: 30px 5px;
 }
 
 .table_child{
@@ -116,6 +116,19 @@ dt{
     font-weight: bold;
 }
 
+.box3 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -50px;
+    left: 20px; 
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    /* background: #adadad50; */
+    color: #008000;
+    font-weight: bold;
+}
+
 .box2 p {
     margin: 0; 
     padding: 0;
@@ -163,4 +176,70 @@ footer{
     margin: 2em auto;
     border: 8px solid #ffffff;
     box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+  
+.box3{
+    width: 50%; 
+    text-align: left;
+    color: #008000;/*文字色*/
+    border: dashed 2px rgb(0, 253, 63);/*破線 太さ 色*/
+    /* background: #adadad50; 背景色 */
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: relative;
+    margin: 2em 15em;
+    /* padding: 2em 10em; */
+    border-radius: 8px;
+  }
+  
+ 
+  ul li, ol li {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0.5em 0;
+  }
+
+  li.course{
+    
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 20px;
+    /* display: inline-block; */
+    color: #006400;
+    margin: 0px 22px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+li.course a{
+    color: #006400;
+    text-decoration: none;
+}
+
+div.course a{
+    color: #006400;
+    text-decoration: none;
+}
+
+div .course:hover{
+    color: #00a800;
+    background-color: rgb(115, 255, 0);
+    box-shadow:0px 0px 20px 0px rgba(157, 255, 0, 0.5);
+}
+
+div.course{
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 20px;
+    /* display: inline-block; */
+    color: #006400;
+    margin: 0px 22px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
 }
