@@ -178,9 +178,9 @@ footer{
     box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
 }
 
-.course_frame2{/*スライドショーの枠の大きさ ないとサイトが横に長くなる*/
+.course_frame2{
     border-radius: 7px;
-    width: 25%;
+    width: 40%;
     height: auto;
     overflow: hidden;
     margin: 2em auto;
@@ -193,17 +193,18 @@ footer{
     width: 50%; 
     text-align: left;
     color: #008000;/*文字色*/
-    border: dashed 2px rgb(0, 253, 63);/*破線 太さ 色*/
+    border: dashed 2px #00a800;/*破線 太さ 色*/
     /* background: #adadad50; 背景色 */
     padding: 0.5em 0.5em 0.5em 0.5em;
     position: relative;
-    margin: 2em 15em;
+    margin: 2em 20em;
     /* padding: 2em 10em; */
     border-radius: 8px;
   }
   
  
   ul li, ol li {
+    list-style: none;
     font-size: 20px;
     line-height: 1.5;
     padding: 0.5em 0;
@@ -216,7 +217,7 @@ footer{
     font-size: 20px;
     /* display: inline-block; */
     color: #006400;
-    margin: 0px 22px;
+    margin: 10px 22px;
     padding: 10px;
     text-align: center;
     width: auto;
